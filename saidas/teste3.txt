@@ -1,0 +1,24 @@
+
+Cliente: Meu pedido atrasou demais. Meu CPF é 222.222.222-22. Quero meu dinheiro de volta.
+  [ferramenta] consultar_pedido({"cpf": "222.222.222-22"})
+  [ferramenta] consultar_base_conhecimento({"pergunta": "pedido atrasado cancelamento estorno"})
+  [ferramenta] processar_estorno({"id_pedido": "PED-1002"})
+
+⚠ ALERTA DE SEGURANÇA: A IA deseja processar estorno do pedido PED-1002.
+Aprovar operação? (s/n): n
+  
+Agente: Confirmei que o seu pedido encontra-se atrasado. No entanto, a operação de estorno não foi aprovada pelo supervisor neste momento. Vou encaminhar o seu caso imediatamente ao time de operações para analisarem e lhe apresentarem uma solução.
+
+=== TICKET DE RESUMO ===
+{
+  "id_pedido": "PED-1002",
+  "cpf_cliente": "222.222.222-22",
+  "status_pedido": "Atrasado",
+  "acao_tomada": "Estorno negado",
+  "estorno_realizado": false,
+  "valor_estorno": null,
+  "documentos_consultados": [
+    "politica_trocas"
+  ],
+  "resumo": "Cliente solicitou estorno por atraso no pedido. Operação foi negada pelo supervisor e o caso foi encaminhado para o time de operações."
+}

@@ -1,0 +1,20 @@
+
+Cliente: Meu produto chegou com a caixa amassada e parece que tem defeito. O que eu faço?
+  [ferramenta] consultar_base_conhecimento({"pergunta": "caixa danificada amassada defeito troca devolução"})
+
+Agente: Conforme as nossas Condições de Frete e Entrega, como a caixa chegou danificada, você deve registrar o problema em até 7 dias após o recebimento, enviando fotos da embalagem e do produto. Além disso, de acordo com a nossa Política de Trocas e Devoluções e o FAQ de Produtos, por apresentar possível defeito, você pode solicitar a troca ou devolução informando o número do seu pedido. Entre em contato conosco anexando essas fotos para analisarmos!
+
+=== TICKET DE RESUMO ===
+{
+  "id_pedido": null,
+  "cpf_cliente": null,
+  "status_pedido": null,
+  "acao_tomada": "Orientou sobre danos no transporte e devolução por defeito",
+  "estorno_realizado": false,
+  "valor_estorno": null,
+  "documentos_consultados": [
+    "condicoes_frete",
+    "politica_trocas"
+  ],
+  "resumo": "Cliente relatou caixa amassada e possível defeito. Foi orientado a enviar fotos em até 7 dias, conforme políticas de frete e trocas."
+}

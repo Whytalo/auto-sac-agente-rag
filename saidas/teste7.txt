@@ -1,0 +1,19 @@
+
+Cliente: A garantia do meu produto cobre se eu derrubar ele no chão?
+  [ferramenta] consultar_base_conhecimento({"pergunta": "garantia queda mau uso"})
+
+Agente: Conforme consta no nosso FAQ de Produtos e Garantia, a garantia não cobre danos causados por mau uso, como quedas. Nesses casos, nós oferecemos um serviço de reparo avulso, que conta com orçamento prévio a ser pago pelo cliente. Deseja que eu acione o nosso time de operações para verificarem um orçamento para você?
+
+=== TICKET DE RESUMO ===
+{
+  "id_pedido": null,
+  "cpf_cliente": null,
+  "status_pedido": null,
+  "acao_tomada": "Informou regras de garantia sobre mau uso",
+  "estorno_realizado": false,
+  "valor_estorno": null,
+  "documentos_consultados": [
+    "faq_produtos"
+  ],
+  "resumo": "Cliente questionou se a garantia cobre quedas. Informado que danos por mau uso não possuem cobertura, mas existe a opção de reparo avulso pago."
+}

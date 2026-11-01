@@ -1,0 +1,19 @@
+
+Cliente: Oi, comprei um produto e quero devolver. Quantos dias eu tenho?
+  [ferramenta] consultar_base_conhecimento({"pergunta": "prazo de devolução por arrependimento"})
+
+Agente: Conforme a Política de Trocas e Devoluções, caso seja por direito de arrependimento, você pode desistir da compra em até 7 dias corridos após o recebimento do produto, sem precisar justificar, desde que ele esteja sem uso e na embalagem original. Já em caso de defeito de fabricação, o prazo é de até 30 dias corridos.
+
+=== TICKET DE RESUMO ===
+{
+  "id_pedido": null,
+  "cpf_cliente": null,
+  "status_pedido": null,
+  "acao_tomada": "Informou prazos de devolução",
+  "estorno_realizado": false,
+  "valor_estorno": null,
+  "documentos_consultados": [
+    "politica_trocas"
+  ],
+  "resumo": "Cliente perguntou sobre o prazo para devolução de produto. Informado sobre o prazo de 7 dias para arrependimento e 30 dias para defeitos."
+}

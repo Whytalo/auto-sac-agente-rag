@@ -1,0 +1,24 @@
+
+Cliente: Meu pedido atrasou demais. Meu CPF é 222.222.222-22. Quero meu dinheiro de volta.
+  [ferramenta] consultar_pedido({"cpf": "222.222.222-22"})
+  [ferramenta] consultar_base_conhecimento({"pergunta": "pedido atrasado cancelamento estorno"})
+  [ferramenta] processar_estorno({"id_pedido": "PED-1002"})
+
+⚠ ALERTA DE SEGURANÇA: A IA deseja processar estorno do pedido PED-1002.
+Aprovar operação? (s/n): s
+  
+Agente: Verifiquei que o seu pedido da Smart TV 50" UltraHD realmente consta como atrasado. Conforme a nossa Política de Trocas e Devoluções, processei o cancelamento e o estorno imediato do valor de R$ 2.499,00 foi aprovado e realizado com sucesso.
+
+=== TICKET DE RESUMO ===
+{
+  "id_pedido": "PED-1002",
+  "cpf_cliente": "222.222.222-22",
+  "status_pedido": "Atrasado",
+  "acao_tomada": "Estorno processado com sucesso",
+  "estorno_realizado": true,
+  "valor_estorno": "R$ 2.499,00",
+  "documentos_consultados": [
+    "politica_trocas"
+  ],
+  "resumo": "Cliente reclamou de atraso na entrega e solicitou devolução do dinheiro. Estorno aprovado pelo supervisor e processado."
+}

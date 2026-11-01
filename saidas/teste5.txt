@@ -1,0 +1,16 @@
+
+Cliente: Vocês vendem passagens aéreas?
+
+Agente: Desculpe, mas venda de passagens aéreas está fora do nosso escopo de atuação, já que somos focados apenas no e-commerce de produtos físicos. Posso te ajudar com alguma outra dúvida sobre nossos itens ou pedidos?
+
+=== TICKET DE RESUMO ===
+{
+  "id_pedido": null,
+  "cpf_cliente": null,
+  "status_pedido": null,
+  "acao_tomada": "Informou que a dúvida está fora do escopo",
+  "estorno_realizado": false,
+  "valor_estorno": null,
+  "documentos_consultados": [],
+  "resumo": "Cliente perguntou sobre passagens aéreas. O agente informou que esse serviço não faz parte do escopo da empresa."
+}

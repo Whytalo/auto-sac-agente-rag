@@ -1,0 +1,17 @@
+
+Cliente: Quero cancelar meu pedido. CPF 999.999.999-99.
+  [ferramenta] consultar_pedido({"cpf": "999.999.999-99"})
+
+Agente: Nenhum pedido foi encontrado para este CPF. Você poderia verificar se o número foi digitado corretamente?
+
+=== TICKET DE RESUMO ===
+{
+  "id_pedido": null,
+  "cpf_cliente": "999.999.999-99",
+  "status_pedido": null,
+  "acao_tomada": "Solicitou confirmação do CPF",
+  "estorno_realizado": false,
+  "valor_estorno": null,
+  "documentos_consultados": [],
+  "resumo": "Cliente solicitou cancelamento informando o CPF, mas nenhum pedido correspondente foi localizado no sistema."
+}
